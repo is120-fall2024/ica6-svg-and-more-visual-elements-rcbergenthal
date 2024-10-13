@@ -10,7 +10,25 @@
   <header>
     <div class="header-row">
       <!-- [Q1. Draw an svg logo and put it as the .header-logo div. Wrap the svg in an <a> with href referencing this page ] -->
-      <div class="header-logo">LOGO GOES HERE</div>
+        <div class="header-logo">
+          <a href="#top">
+            <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" width="100" height="45">
+              <text
+                font-size="300"  
+                text-anchor="start"
+                dominant-baseline="auto"
+                font-family="Courier New"
+                font-weight="bold"
+                x="50"
+                y="200"  
+                fill="#E0DFE2"
+                stroke="#E0DFE2"
+                stroke-width="4"
+              >S</text>
+              <circle cx="270" cy="150" r="40" fill="#D38F22" />
+            </svg>
+          </a>
+        </div>        
       <nav>
         <ul>
           <li><a href="#hero">hero</a></li>
@@ -22,22 +40,31 @@
   
   <section class="hero" id="hero">
     <!-- [Q2. use a <video> to insert a video to autoplay. ] -->
+      <video class=".video" src="Shiloh.mp4" autoplay muted loop></video>
+      <p class="video-caption">The video is of my neice, Shiloh, trying to blow on a dandelion for the first time. Instead of blowing it out she just sticks it in her mouth</p>
     <div class="left-video">Insert Video Here</div>
     <div class="right-content">
       <!-- [Q2 cont. Add paragraph text to the div below about the video you choose. ] -->
-      <div class="right-text"></div>
+      <div class="right-text"> Video of my neice, Shiloh, learning how to blow on a dandelion. She still hasn't quite got it.</div>
       <div class="right-button">
         <!-- [Q3. Style this button both for original styles and for the styles to change :onhover. ] -->
         <button>Style this button!</button>
       </div>
     </div>
     <!-- [Q4. Add a preformatted SVG image of a section break (some design) to make a more smooth transition between sections. Use an online SVG generator to create this SVG, and have the colors match the page.] -->
-    <div class="bottom-svg-wave"></div>
+    
+    <div class="bottom-svg-wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill"></path>
+      </svg>
+    </div>
   </section>
 
   <section class="iframe-container" id="iframe">
     <!-- [Q5. Copy the webaddress or iframe architecture from a website of your choice and insert it to the content of the .iframe div] -->
-    <div class="iframe">Insert your iframe here</div>
+    <div class="iframe">Insert your iframe here
+        <iframe src="https://www.rachelbithell.com/" ></iframe>
+    </div>
   </section>
   
   <section class="hw6-container" id="hw6">
