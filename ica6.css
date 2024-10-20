@@ -10,21 +10,24 @@
   --secondary-rgb: 224, 223, 226;
   --accent-rgb: 211, 143, 34;
 }
+
 video{
+  margin-top: 30px;
   width: 700px;
-  height: 450px; 
+  height: 425px; 
 }
 .video-caption {
   font-size: small; 
-  margin-top: 10px; 
+  margin-top: 3px; 
   color: #333; 
   font-family: Arial, sans-serif;
+  margin-left: 150px;
 }
 .bottom-svg-wave {
   position: absolute;
-  top: 550px;
+  top: 555px;
   left: 0;
-  width: 50%;
+  width: 100%;
   overflow: hidden;
   line-height: 0;
   
@@ -94,7 +97,7 @@ header {
 }
 
 .header-row a:hover {
-  color: #bd0a13; /* Change color on hover */
+  color: #bd0a13;
 }
 
 .hero {
@@ -104,11 +107,12 @@ header {
 
 .left-video {
   position: absolute;
+  margin-top: 30px;
   left: 5%;
   top: 50%;
   transform: translateY(-50%);
   width: 50%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 13/ 10;
   border: none;
   border: 5px solid rgba(var(--accent-rgb), .6);
   border-radius: 15px;
